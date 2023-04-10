@@ -25,7 +25,7 @@ jobs:
       - name: cfn-lint-action
         uses: ScottBrenner/cfn-lint-action@v2.2.3
         with:
-          args: cfn-lint 
+          args: cfn-lint Test/template.yaml
           
       #- name: Stelligent cfn_nag
   # You may pin to the exact commit or the version.
